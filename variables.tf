@@ -9,3 +9,7 @@ variable "bucket_name" {
 variable "dynamodb_table" {
   type = string
 }
+
+variable "oidc_subject_backend_list" {
+  type = list(string)
+}
