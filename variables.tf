@@ -10,6 +10,6 @@ variable "dynamodb_table" {
   type = string
 }
 
-variable "oidc_subject_backend_list" {
-  type = list(string)
+variable "oidc_roles_and_subjects" {
+  type = map(list(string))
 }
